@@ -85,7 +85,12 @@ html {scroll-behavior: smooth}
 
 * {padding: 0;margin: 0;box-sizing: border-box}
 
-body {font-family: cursive;text-transform: capitalize}
+body {
+    font-family: 'Caveat', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Kalam', cursive;
+    text-transform: capitalize
+}
 
 ul {list-style: none}
 
