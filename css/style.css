@@ -307,6 +307,10 @@ header .icon i {margin-left: 20px;color: #FFF}
 
 .design .text .content ul li {padding: 10px 0}
 
+@media (max-width: 500px) {
+    .design .text .content ul li {font-size: 12px}
+}
+
 .design .text .icon {width: 30px;display: inline-block;vertical-align: middle;margin-right: 10px}
 
 /* End Design */
@@ -473,6 +477,13 @@ header .icon i {margin-left: 20px;color: #FFF}
 }
 
 .stats .word .text {margin-right: 50px;text-align: center;margin-bottom: 30px}
+
+@media (max-width:500px) {
+    .stats .word {
+        flex-direction: column;
+    }
+    
+}
 
 @media (min-width: 500px) {
     .stats .word .text {flex-basis: 100%;margin-right: 0px}
