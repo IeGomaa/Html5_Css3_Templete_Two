@@ -471,6 +471,7 @@ header .icon i {margin-left: 20px;color: #FFF}
     background-color: rgb(15 116 143 / 70%);
     display: flex;
    justify-content: center;
+   align-items: center;
    flex-wrap: wrap;
    padding: 40px 0 20px;
    margin: 40px 0;
@@ -479,9 +480,9 @@ header .icon i {margin-left: 20px;color: #FFF}
 .stats .word .text {margin-right: 50px;text-align: center;margin-bottom: 30px}
 
 @media (max-width:500px) {
-    .stats .word {
-        flex-direction: column;
-    }
+    .stats .word {flex-direction: column}
+    
+    .stats .word .text {margin-right: 0px}
     
 }
 
